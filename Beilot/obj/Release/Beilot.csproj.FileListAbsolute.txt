@@ -1,0 +1,11 @@
+E:\Projects\Beilot\Beilot\Beilot\bin\Release\Beilot.exe
+E:\Projects\Beilot\Beilot\Beilot\bin\Release\Beilot.pdb
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.Form1.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.Properties.Resources.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.csproj.GenerateResource.Cache
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.exe
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.pdb
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.Form2.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.Form3.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Release\Beilot.Form4.resources

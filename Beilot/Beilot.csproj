@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15660652-F26C-40CA-99F0-547520C907E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Beilot</RootNamespace>
+    <AssemblyName>Beilot</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back15.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back17.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back18.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back19.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back20.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back21.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back22.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back23.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f6.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

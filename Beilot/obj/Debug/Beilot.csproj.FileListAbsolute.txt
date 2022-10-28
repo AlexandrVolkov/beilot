@@ -1,0 +1,9 @@
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.Form1.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.Properties.Resources.resources
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.csproj.GenerateResource.Cache
+E:\Projects\Beilot\Beilot\Beilot\bin\Debug\Beilot.exe
+E:\Projects\Beilot\Beilot\Beilot\bin\Debug\Beilot.pdb
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.exe
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.pdb
+E:\Projects\Beilot\Beilot\Beilot\obj\Debug\Beilot.Form2.resources
